@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    /* = 10px */
+}
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato'), local('Lato-Regular')
+    url(/Tag_32_scorekeeper/assets/fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato'), local('Lato-Bold')
+    url(/Tag_32_scorekeeper/assets/fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: local('Orbiton'), url(/Tag_32_scorekeeper/assets/fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+body {
+    background-color: #2C2C2C;
+}
+article:nth-of-type(1) div{
+    border: 0.5rem solid #97F5BB;
+    background-color: #2C2C2C;
+    width:33rem; height:28rem;
+    border-radius: 2rem;
+    margin: 10rem 79.5rem -1.25rem 25rem;
+}
+p {
+    background-color: black;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+    color: #FDF860;
+    font-family: Orbitron;
+    font-size: 10rem;
+    text-align: center;
+    padding: 5rem;
+    margin: 2rem;    
+}
+h2 {
+    font-family: Orbitron;
+    color: white;
+    background-color: #2C2C2C;
+    padding: 0.2rem 1rem;
+    margin-left: 37.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    display: inline; 
+}
+article:nth-of-type(2) div {
+    border: 0.5rem solid #525DF4;
+    background-color: #2C2C2C;
+    border-radius: 2rem;
+    margin: 10rem 75rem 0rem 30rem;
+    position:absolute;
+    left:38%; top:0; width:33rem; height:28rem;
+}
+article:nth-of-type(2) h2 {
+    position:relative;
+    left:41.5%; top:-2rem; width:5rem; height:0rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #2C2C2C;
+}
+.btn1 {
+    background-color: #97F5BB;
+    color: white;
+    font-family: Lato;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: none;
+    margin: 5rem 0rem 0rem 1.5rem;
+}
+article:nth-of-type(3) button:nth-of-type(1) {
+    margin-left: 30rem;
+}
+.btn2 {
+    background-color: #525DF4;
+    color: white;
+    font-family: Lato;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    border: none;
+    margin: 5rem 0rem 0rem 1.5rem;
+}
+article:nth-of-type(3) button:nth-of-type(4) {
+    margin-left: 35rem;
+}
+.btn3 {
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    margin-left: 48%;
+    margin-top: 5rem;
+}
+.btn4 {
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    padding: 1rem 3rem;
+    border: none;
+    margin-left: 45%;
+    margin-top: 5rem;
+}
